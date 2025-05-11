@@ -1,0 +1,13 @@
+*{
+    width: 0px;
+    height: 0px;
+}
+
+#sayfa{
+    border-style: solid;
+    width: 600px;
+    height: 900px;
+    margin: auto;
+    border-width: 1px;
+    
+}

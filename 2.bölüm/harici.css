@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+p{
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    
+}
