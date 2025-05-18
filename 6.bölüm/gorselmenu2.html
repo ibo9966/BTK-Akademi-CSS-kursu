@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center; /* hr'ı da ortalamak için */
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px auto;
+      display: flex;
+      justify-content: center; /* Menüyü yatayda ortala */
+      gap: 10px; /* Aralarına boşluk */
+    }
+
+    li {
+      border: olivedrab solid 3px;
+      border-radius: 5px;
+      width: 120px;
+      padding: 5px;
+      background-color: orange;
+    }
+
+    a:link,
+    a:visited {
+      color: gray;
+      text-decoration: none;
+      display: block;
+    }
+
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+
+    hr {
+      margin-top: 20px;
+      width: 80%;
+      border: none;
+      height: 2px;
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li><a href="#">Anasayfa</a></li>
+    <li><a href="#">Ürünlerimiz</a></li>
+    <li><a href="#">Biz Kimiz?</a></li>
+    <li><a href="#">İletişim</a></li>
+  </ul>
+  <hr />
+</body>
+</html>
