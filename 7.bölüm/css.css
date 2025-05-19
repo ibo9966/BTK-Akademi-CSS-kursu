@@ -1,0 +1,184 @@
+/* Genel ayarlar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+#container {
+    width: 90%;
+    margin: 30px auto;
+    border: 3px solid #4CAF50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+/* Başlık */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid #388E3C;
+}
+
+header h1 {
+    font-size: 28px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Menü */
+#anamenu {
+    background-color: #81C784;
+    height: auto; /* <--- otomatik yükseklik */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 2px solid #66BB6A;
+}
+
+
+/* İçerik ve yan menü */
+#icerik {
+    width: 70%;
+    min-height: 500px;
+    float: left;
+    padding: 20px;
+    background-color: #FAFAFA;
+    border-right: 1px solid #ddd;
+}
+
+#yanmenu {
+    width: 30%;
+    min-height: 500px;
+    float: left;
+    padding: 20px;
+    background-color: #FFCDD2;
+    border-left: 1px solid #e57373;
+}
+
+/* Liste stilleri */
+#ilkliste,
+#ikinciliste {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#ilkliste li {
+    margin-bottom: 10px;
+}
+
+#ikinciliste li {
+    margin-bottom: 10px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s;
+}
+
+#ikinciliste li:hover {
+    background-color: #f8f8f8;
+}
+
+/* Link stilleri */
+a:link,
+a:visited {
+    color: #2E7D32;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    color: #C62828;
+    text-decoration: underline;
+}
+
+/* Footer */
+#altmenu {
+    clear: both;
+    background-color: #eeeeee;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #ccc;
+}
+
+#altmenu p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #388E3C;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.menu-button:hover {
+    background-color: #2E7D32;
+}
+
+#image-popup-area {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#image-popup-area img {
+    width: 170px;
+    height: 170px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #388E3C;
+}
+
+.icerik-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 30px auto;
+    line-height: 1.8;
+}
+
