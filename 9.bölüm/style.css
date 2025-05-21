@@ -30,8 +30,9 @@ kutu genişlikleri
 .row{
     border: blue solid 2px;
     background-color: cornflowerblue;
-    margin: 5px;
+    margin: 10px;
     border-radius: 10px;
+    padding: 10px;
 }
 
 /*satırlar yanyana gelmesin*/
@@ -52,6 +53,8 @@ kutu genişlikleri
     float: left;
     padding: 15px;
     border: 1px solid red;
+    background-color: white;
+    border-radius: 10px;
 }
 
 /*500 px'den küçük ekranlarda kutu genişliği %100 olsun*/
@@ -59,4 +62,44 @@ kutu genişlikleri
 @media screen and (max-width:500px) {
     [class*="col-"]{width: 100%;}
     
+}
+
+/*kutu yükseklikleri*/
+#ust{
+    min-height: 50px;
+}
+#menu{
+    min-height: 50px;
+}
+#orta{
+    min-height: 400px;
+}
+#alt{
+    min-height: 50px;
+}
+
+/*sosyal medya ikonları*/
+#ikon{
+    width: 50px;
+    float: right;
+    margin-right: 10px;
+}
+
+/*
+Anamenu
+*/
+#menu #anamenu ul{
+    list-style-type: none;
+}
+
+#menu #anamenu ul li{
+    border: 1px solid  blue;
+    width: 25%;
+    float: left;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+
 }
